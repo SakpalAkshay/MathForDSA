@@ -29,7 +29,7 @@ def isDivisibleBy7(n):
     
     # if number becomes - negative in recursive case make it positive
     if n < 0:
-        return isDivisibleBy7(-7)
+        return isDivisibleBy7(-n)
     
     #base case
     if (n==0 or n==7):
