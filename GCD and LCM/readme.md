@@ -29,3 +29,12 @@ Step 4: A = 12, B = 6
 Step 2: Divide 12 by 6, and you get a quotient of 2 and a remainder of 0.
 
 Since the remainder is now 0, the GCD of 48 and 18 is the last non-zero remainder, which is 6.
+
+
+# LCM of Two Numbers
+
+Based upon a very simple approach
+
+ a x b = LCM(a, b) * GCD (a, b)
+
+ LCM(a, b) = (a x b) / GCD(a, b)
