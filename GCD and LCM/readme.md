@@ -38,3 +38,29 @@ Based upon a very simple approach
  a x b = LCM(a, b) * GCD (a, b)
 
  LCM(a, b) = (a x b) / GCD(a, b)
+
+# Euler's Totient Function
+The Euler's Totient Function (φ) counts the number of positive integers less than or equal to a given number (n) that are relatively prime to n, meaning they do not share any common factors other than 1.
+
+So, in the case of φ(10):
+
+1 is relatively prime to 10 because they share no common factors other than 1.
+
+2 is not relatively prime to 10 because they share a common factor of 2.
+
+3 is relatively prime to 10.
+
+4 is not relatively prime to 10 because they share a common factor of 2.
+
+5 is not relatively prime to 10 because they share a common factor of 5.
+
+6 is not relatively prime to 10 because they share a common factor of 2.
+
+
+7 is relatively prime to 10.
+
+8 is not relatively prime to 10 because they share a common factor of 2.
+
+9 is relatively prime to 10.
+
+So, φ(10) is the count of numbers that are relatively prime to 10, which is 4: 1, 3, 7, and 9.
